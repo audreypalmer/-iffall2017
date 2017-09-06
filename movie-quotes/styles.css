@@ -1,0 +1,24 @@
+html{
+ color:orangered;
+ font-family: sans-serif;
+ background: purple;
+}
+b{
+color:black;
+}
+em{
+color:blue;
+}
+#tone{
+color: #333333;
+}
+#movie-title{
+	font-size: 36px;
+}
+#movie-subtitle{
+	font-size: 20px;
+}
+
+.script{
+	font-family: monospace;
+}
