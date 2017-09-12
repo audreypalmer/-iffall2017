@@ -1,0 +1,25 @@
+html{
+ font-family: sans-serif;
+ background: pink;
+
+}
+#song-title{
+	font-size: 45px;
+	color:blue;
+}
+#song-subtitle{
+	font-size: 30px;
+	color:grey;
+}
+
+#song-artist{
+	font-size: 35px;
+	color:maroon;
+}
+#song-parts{
+	font-size: 20px;
+}.script{
+	font-family: monospace;
+	font-size: 15px;
+	color:blue;
+}
