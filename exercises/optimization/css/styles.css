@@ -1,0 +1,54 @@
+html{
+	body {
+		font-family: "Arial", sans-serif;
+		padding: 30px;
+	}
+
+	h1 {
+		margin: 0 0 6px 0;
+	}
+
+	h2 {
+		margin: 0 0 30px 0;
+	}
+
+	table {
+	}
+
+	td, th {
+		background-color: #eee;
+		padding: 30px;
+		margin: 2px;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	.blank {
+		background-color: transparent;
+	}
+
+	.label {
+		background-color: #3997b6;
+		color: #fff;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.label.optimized {
+		background-color: #39b64e;
+	}
+
+	.note {
+		font-size: 14px;
+		font-weight: normal;
+		font-style: italic;
+	}
+
+	div.note {
+		margin-top: 5px;
+	}
+
+	img {
+		width: 300px;
+		height: 300px;
+}
