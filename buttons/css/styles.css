@@ -1,0 +1,574 @@
+*,*:before, *:after {
+}
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+a#btn_apple {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  color: purple;
+}
+a#btn_apple:hover{
+  color: deeppink;
+}
+
+#btnbs {
+	display: inline-block;
+	font-family: 'UnifrakturMaguntia', sans-serif;
+	font-size: 30px;
+	margin-top: 110px;
+	text-decoration: none;
+	padding: 10px 16px;
+	background-color: #fff;
+	color: #f4d142;
+}
+
+#btnbs:hover{
+	color: #a31043;
+	background-color: #f4d142;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a#btn_lyft {
+  display: block;
+  width: 140px;
+  height: 40px;
+  border-radius: 70px;
+  margin: auto;
+  margin-top: 105px;
+  padding: 5px 0 9px 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  background-color: #ff14c0;
+  color: white;
+}
+
+a#btn_lyft:hover {
+    background: -webkit-linear-gradient(#ff14c0, #b300c4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff14c0, #b300c4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff14c0, #b300c4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff14c0, #b300c4); /* Standard syntax */
+
+}
+
+a#btn_tonight-show {
+  display: block;
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 80px;
+  margin: auto;
+  margin-top: 65px;
+  padding-top: 35px;
+  background-color: #193a70;
+}
+
+a#btn_tonight-show:hover {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/2/28/TSSJF_Logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 70px #193a70;
+  background-color: none;
+}
+
+a#btn_foreflight {
+  display: block;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-top: 9px;
+  margin-top: 70px;
+  font-size: 60px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: limegreen;
+  transition: .1s;
+}
+
+a#btn_foreflight:hover {
+  background-color: red;
+  transition: .2s;
+
+  /*rotation property found on w3schools*/
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+#btnsardella{
+	display: inline-block;
+	margin: auto;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 25px;
+	margin-top: 110px;
+	background-image: -webkit-linear-gradient(-45deg, #f3c5bd 0%,#ea2803 35%,#ea2803 35%,#e86c57 50%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+  	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+}
+
+#btnsardella:hover{
+	background-image: none;
+	background-color: #7aadff;
+
+}
+
+#ideoimg{
+	max-width: 100px;
+	max-height: 100px;
+	margin-top: 80px;
+	filter: invert();
+}
+
+#ideoimg:hover{
+	background-color: blue;
+  	transition: .30s;
+  	filter: none;
+
+  /*rotation property found on w3schools*/
+  -ms-transform: rotate(400deg); /* IE 9 */
+    -webkit-transform: rotate(400deg); /* Chrome, Safari, Opera */
+    transform: rotate(400deg);
+}
+
+
+a#btn_samsung {
+  display: block;
+  box-sizing: border-box;
+  width: 205px;
+  height: 60px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 5px 3px;
+  border-radius: 50%;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #fff;
+  background-color: #0c4db7;
+  transition: .75s;
+}
+
+a#btn_samsung:hover {
+  background: #fff;
+  color: deeppink;
+  transition: color .8s, background .5s;
+}
+#target {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin:auto;
+	margin-top:50px;
+	background-image: url(https://seeklogo.com/images/T/Target-logo-9FE48EBE3B-seeklogo.com.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	filter: contrast(.9);
+}
+
+#target:hover {
+	filter:grayscale();
+}
+#nike {
+	max-width: 100px;
+	display: block;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+#nike:hover{
+	background-color: none;
+  	transition: .2s;
+  	filter: none;
+
+  /*rotation property found on w3schools*/
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(1800deg);
+ }
+
+#btnny {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+}
+
+#ny {
+	max-width: 100px;
+	filter: invert();
+	border-radius: 50%;
+}
+
+#ny:hover {
+	filter: opacity(40%);
+}
+#btnmoo {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	font-family: 'Open+Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-decoration: none;
+	color: green;
+}
+
+#btnmoo:hover {
+	font-style: italic;
+	color: limegreen;
+	font-size: 50px;
+}
+
+#btnfit {
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	color: purple;
+}
+
+#btnfit:hover {
+	color: red;
+	filter:drop-shadow(5px 5px 5px red);
+}
+
+#btn_nerf{
+	display: block;
+  	box-sizing: border-box;
+  	margin: auto;
+  	width: 120px;
+  	height: 60px;
+  	margin-top: 100px;
+  	padding: 5px 3px;
+ 	background: transparent url('https://vignette.wikia.nocookie.net/cardfight/images/f/f9/NERF.png/revision/latest?cb=20151203113144) center no-repeat');
+ 	background-size: contain;
+}
+
+#btn_nerf:hover{
+	filter:drop-shadow(8px 8px 10px red);
+}
+
+#btn_color-run {
+   display: block;
+  box-sizing: border-box;
+  width: 215px;
+  height: 70px;
+  margin: auto;
+  margin-top: 85px;
+  padding: 15px 3px;
+  border-radius: 40px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 26px;
+  color: #000;
+}
+
+#btn_color-run:hover {
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+#cnimg{
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#cnimg:hover{
+	filter:invert();
+}
+
+#btn_instagram {
+display: block;
+	margin: auto;
+	margin-top: 80px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#btn_instagram:hover {
+	filter:sepia();
+  
+}
+
+#btn_old-navy {
+  display: block;
+  box-sizing: border-box;
+  width: 175px;
+  height: 60px;
+  margin: auto;
+  padding: 15px;
+  margin-top: 90px;
+  border-radius: 5px;
+
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: #004768;
+  transition: 0.65s, background 0.25s;
+}
+
+#btn_old-navy:hover {
+  background: #4682B4;
+  border-radius: 100%;
+  transition: 0.65s, background 0.25s;
+}
+
+#btn_ofa {
+  display: block;
+  box-sizing: border-box;
+  width: 115px;
+  height: 105px;
+  margin: auto;
+  padding-top: 25px;
+  margin-top: 75px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28b8ed;
+  filter: saturate(50%);
+}
+
+#btn_ofa:hover {
+  font-size: 100px;
+  padding-top: 19px;
+   filter: saturate(100%);
+
+ }
+
+#btn_cocacola {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 70px;
+	padding: 10px 40px 0 40px;
+}
+
+#btn_cocacola:hover {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+
+
+#btn_harleydavidson{
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+}
+#btn_harleydavidson:hover{
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+	transition: 0.6s
+	filter: sepia();
+}
+
+#btn_pottermore {
+	display:block;
+	margin:auto;
+	margin-top:80px;
+	font-size:80px;
+	color: gold;
+	filter: saturate(10%);
+}
+
+#btn_pottermore:hover{
+	filter: saturate(100%);
+
+}
+#btn_fitbit {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://www.fitbit.com/content/assets/common/logo/fitbit-logo-2016.svg') center no-repeat;
+	background-size: contain;
+}
+
+#btn_fitbit:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('https://www.fitbit.com/content/assets/app2/images/fitbit_logo_icon.svg') center no-repeat;
+	background-size: contain;
+	filter: grayscale();
+}
+
+#btntesla {
+	color: #efd71f;
+	display: block;
+	margin: auto;
+	margin-top: 80px;
+	-webkit-transition: -webkit-transform .1s ease-in-out;
+	transition: transform .1s ease-in-out;
+	filter: sepia();
+}
+
+#btntesla:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	filter: saturate();
+
+}
+
+#btn_botanical-garden {
+  display: block;
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  margin-top: 70px;
+  padding: 15px;
+  background-image: url("https://publicgardens.org/sites/default/files/styles/large/public/Missouri%20Botanical%20Garden%20Logo.png?itok=TMEBVOY4");
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#btn_botanical-garden:hover {
+  background-color: #8cad5d;
+  box-shadow: 1px 3px 10px #556B2F;
+}
+</style>
