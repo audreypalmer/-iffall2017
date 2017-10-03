@@ -1,0 +1,181 @@
+*,*:before, *:after {
+box-sizing: border-box;
+}
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+	box-sizing: border-box;
+	background-position: center top;
+	height: 2315px;
+
+}
+#intro{
+	padding-top: 157px;
+	height: 480px;
+	text-align: center;
+	max-height: 482px;
+	background-image: url(http://68.media.tumblr.com/98672b78f4e6c95490633f1fd50d0d4e/tumblr_mgxw3foKvH1s3cx42o1_500.gif);
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 78px;
+	letter-spacing: 0.75px;
+	color: white;
+
+}
+h3 {
+	margin-top: 3px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	color: white;
+
+
+}
+h2{
+	font-size: 40px;
+	font-weight: 700;
+	display: block;
+	margin-top: 0px;
+	color: pink
+
+}
+.phototext {
+	text-align: left;
+	margin-top: 0px;
+	color: 
+}
+.phototext p{
+	margin-top: 2px;	
+}
+
+#stwo{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 27px;
+	background-color: deeppink;
+
+}
+p{
+	text-align: left;
+	font-size: 18.5px;
+	font-weight: 500;
+	letter-spacing: -0.33px;
+	line-height: 1.34rem;
+	margin: 16px 0;
+}
+#img1{
+	float: right;
+}
+.content{
+	width: 960px;
+	height: 526px;
+	margin: auto;
+	text-align: center;
+	background-color: ; 
+
+}
+.content img {
+	float: right;
+	margin-left: 41px;
+	margin-bottom: 20px;
+
+}
+#sthree {
+	text-align: center;
+	margin: auto;
+	background-color: lightyellow;
+	height: 665px;
+	padding-top: 27px;
+	font-size: 27px;
+	
+}
+.content3 {
+	width: 960px;
+	margin: auto;
+	text-align: center;
+	
+
+
+}
+.left {
+	display: block;
+	text-align: left;
+	float: left;
+	width: 450px;
+}
+.right {
+	display: block;
+	margin-left: 482px;
+	text-align: left;
+	width: 450px;
+}
+.photo1 {
+	float: left;
+	display: block;
+	margin-bottom: 24px;
+	height: 150px;
+	font-size: 18.5px;
+	letter-spacing: -0.37px;
+	line-height: 1.34rem;
+	font-weight: 500;
+}
+.image {
+	float: left;
+	display: block;
+	height: 150px;
+	width: 200px;
+	margin-right: 13px;
+
+}
+.content4 p {
+	font-size: 27.5px;
+	text-align: center;
+	width: 720px;
+	letter-spacing: -0.16px;
+	line-height: 31px; 
+	margin: auto;
+	text-align: center;
+}
+.content4 {
+	padding-top: 42px;
+	text-align: center;
+	margin: auto;
+	background-color: deeppink; 
+	height: 430px;
+}
+.content5 p{
+	margin-left: 375px;
+	margin-top: 24px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	color: deeppink;
+
+}
+.content5{
+	background-color: lightyellow;
+	height: 100px;
+	padding-top: ;
+
+}
+.buttons {
+	margin-left: 1244px;
+	margin-top: -25px;
+	display: inline;
+	position: absolute;
+	color: deeppink;
+}
+h4{
+	font-size: 22px;
+	color: 
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 4px;
+	margin-bottom: auto;
+	letter-spacing: -0.33px;
+
