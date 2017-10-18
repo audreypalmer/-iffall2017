@@ -1,0 +1,111 @@
+body {
+	text-align: left;
+	background-color: #00FFFF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #C71585;
+	font-size: 16px;
+	background-image: url(https://az616578.vo.msecnd.net/files/2016/11/24/636155467683315926153779009_HM%203.jpg);
+
+}
+.container {
+	width: 400px;
+	height: 700px; 
+	margin-right: 200px;
+	display: inline-block;
+	float: left;
+	color: #3CB371;
+}
+#main-container {
+	position: center;
+	width: 50%;
+	height: 50%;
+	padding-top: 100px;
+	padding-right: 35px;
+	background-color: #8FBC8B;
+	overflow: auto;
+	margin-left: 30px;
+	margin-top: 18px;
+}
+h1 {
+	text-align: left;
+	padding-left: 80px;
+	padding-top: 55px;
+	padding-bottom: -50px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+	font-weight: 900px;
+	line-height: 65px;
+	font-style: black;
+	color: deeppink;
+}
+
+h2 {
+	margin-top: -30px;
+	text-align: left;
+	padding-left: 180px;
+	font-family: 'Poppins';
+	font-size: 10px;
+	font-weight: 200;
+	font-style: italic;
+	color: #C71585;
+}
+
+h3 {
+	margin-top: -360px;
+	text-align: left;
+	padding-left: 80px;
+	font-family: 'Poppins';
+	font-size: 12px;
+	font-weight: 600;
+	color: #C71585;
+}
+h4 {
+	margin-top: 400px;
+	text-align: left;
+	padding-left: 180px;
+	font-family: 'Poppins';
+	font-size: 10px;
+	font-weight: 200;
+	letter-spacing: 2px;
+	color: deeppink;
+}
+.chorus {
+	text-align: left;
+	padding-left: 180px;
+	font-family: 'Poppins';
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #C71585;
+}
+.verse {
+	text-align: left;
+	padding-left: 80px;
+	font-family: 'Poppins';
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #C71585;
+}
+h5{
+	margin-top: 50px;
+	text-align: left;
+	padding-left: 80px;
+	font-family: 'Poppins';
+	font-size: 10px;
+	font-weight: 200;
+	letter-spacing: 2px;
+	color: navy;
+}
+h6{
+	margin-top: 50px;
+	text-align: left;
+	padding-left: 80px;
+	font-family: 'Poppins';
+	font-size: 10px;
+	font-weight: 200;
+	letter-spacing: 2px;
+	color: deeppink;	
+}
+
