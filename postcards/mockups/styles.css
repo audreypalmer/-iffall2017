@@ -1,0 +1,23 @@
+body {
+	height: 100%;
+	font-size: 18px;
+	font-family: Arial;
+}
+body {
+	margin:0;
+	padding: 1em;
+	box-sizing:border-box;
+}
+body>div {
+	background-color:#AFEEEE;
+	height: 100%;
+	position: relative;
+	background-size: cover;
+
+ }
+ img {
+      width: 50%;
+      margin: auto;
+      display: block;
+      margin-top: 10px;
+    }
