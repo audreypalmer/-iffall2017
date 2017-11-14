@@ -1,0 +1,81 @@
+html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 100pt;
+  color: deeppink;
+  background-image: url(hannah1.jpg);
+  background-size: cover;
+  text-align: center;
+  font-weight: 500;
+}
+
+.text {
+  margin: auto;
+  display: inline-block;
+  padding-top: 18%;
+  font-weight: 800;
+  font-style: bold;
+
+}
+
+a {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+  body {
+    font-size: 100pt;
+    padding-left: 35%;
+
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2000px) {
+  body {
+    font-size: 100pt;
+    padding-left: 35%;
+
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  body {
+    font-size: 50pt;
+    background-size: 1100px;
+    background-position: right;
+    padding-left: 35%;
+
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  body {
+    font-size: 35pt;
+    background-size: 1200px;
+    background-position: right;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 35%;
+
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+  body {
+    background-position: 80% center;
+    font-size: 30pt;
+    line-height: 40pt;
+    padding-top: 95%;
+    padding-left: 35%;
+
+  }
+}

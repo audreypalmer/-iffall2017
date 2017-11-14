@@ -1,0 +1,103 @@
+html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 40pt;
+  color: orangered;
+  background-image: url(hannah3.jpg);
+  background-size: cover;
+  text-align: left;
+  font-weight: 700;
+}
+
+.text {
+  margin: auto;
+  display: inline-block;
+  padding-top: 18%;
+
+    margin-right: 80%;
+    margin-left: 10%;  
+  }
+
+a {
+  font-size: 40pt;
+  display: block;
+  width: 300px;
+  text-align: left;
+  position: relative;
+  left: 10%;
+  margin-top: 7%;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+body {
+    background-position: 35% center;
+  }
+  .text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-right: 60%;
+    margin-left: 10%;  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+ body {
+    background-position: 35% center;
+  }
+  .text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-right: 60%;
+    margin-left: 10%;  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-position: 35% center;
+  }
+  .text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-right: 60%;
+    margin-left: 10%;  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  body {
+    background-position: 35% center;
+  }
+  .text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-right: 50%;
+    margin-left: 10%;  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  body {
+    background-position: 35% center;
+  }
+  .text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-right: 50%;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  body {
+    background-position: 35% center;
+  }
+  .text {
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-right: 50%;
+    margin-left: 10%;
+
+
+  }
+}
