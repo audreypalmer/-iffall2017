@@ -1,0 +1,259 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	font-family: 'PT Sans';
+
+}
+
+div#background{
+	background-image: url("background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 4562px;
+}
+
+div#section1{
+	width: 100%;
+	height: 1133px;
+}
+
+div#section2{
+	width: 100%;
+	height: 822px;
+}
+
+div#section3{
+	width: 100%;
+	height: 1189px;
+}
+
+div#section4{
+	width: 100%;
+	height: 543px;
+}
+
+div#section5{
+	width: 100%;
+	height: 882px;
+}
+div#section6{
+	width: 100%;
+	height: 882px;
+}
+
+div#Title{
+	width: 400px;
+    position: absolute;
+    top: 240px;
+    font-family: 'Luckiest Guy';
+    font-size: 60pt;
+    text-align: left;
+    left: 600px;
+    color: red;
+
+}
+div#SubTitle{
+    width: 450px;
+    position: absolute;
+    top: 260px;
+    font-family: 'Luckiest Guy';
+    font-size: 30pt;
+    text-align: left;
+    color: darkred;
+    letter-spacing: 3px;
+}
+
+div#Section2{
+	position: absolute;
+    left: 600px;
+    width: 555px;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: bold;
+    top: 1250px;
+}
+
+div#Section2Title{
+    width: 700px;
+    position: absolute;
+    top: 1185px;
+    font-family: 'Luckiest Guy';
+    font-size: 40pt;
+    text-align: left;
+    left: 600px;
+    color: red;
+
+}
+
+div#Section3{
+	position: absolute;
+    left: 600px;
+    width: 555px;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: bold;
+    top: 1860px;
+}
+
+div#Section3Title{
+    width: 700px;
+    position: absolute;
+    top: 1790px;
+    font-family: 'Luckiest Guy';
+    font-size: 40pt;
+    text-align: left;
+    left: 600px;
+    color: darkred;
+
+}
+
+div#Section4{
+	position: absolute;
+    left: 600px;
+    width: 555px;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: bold;
+    top: 2515px;
+}
+
+div#Section4Title{
+    width: 700px;
+    position: absolute;
+    top: 2445px;
+    font-family: 'Luckiest Guy';
+    font-size: 40pt;
+    text-align: left;
+    left: 600px;
+    color: red;
+}
+
+div#Section5{
+	position: absolute;
+    left: 600px;
+    width: 555px;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: bold;
+    top: 3120px;
+}
+
+div#Section5Title{
+    width: 700px;
+    position: absolute;
+    top: 3000px;
+    font-family: 'Luckiest Guy';
+    font-size: 40pt;
+    text-align: left;
+    left: 600px;
+    color: darkred;
+}
+
+div#Sources{
+	position: absolute;
+    left: 600px;
+    width: 555px;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: bold;
+    top: 3540px;
+}
+
+div#SourceTitle{
+    width: 700px;
+    position: absolute;
+    top: 3500px;
+    font-family: 'Luckiest Guy';
+    font-size: 20pt;
+    text-align: left;
+    left: 600px;
+    color: red;
+}
+
+div#Sources{
+	position: absolute;
+	top: 3600px;
+	width: 202px;
+	height: 847px;
+	font-size: 13pt;
+	color:black;
+}
+
+a#EarlyHistoryLink{
+	position: absolute;
+    width: 10px;
+    height: 40px;
+    top: 621px;
+    left: 600px;
+    font-family: 'Luckiest Guy';
+    font-size: 15pt;
+    color: red;
+    text-decoration: none;
+    text-align: left;
+}
+
+a#PatentingLink{
+  	position: absolute;
+    width: 10px;
+    height: 19px;
+    top: 621px;
+    left: 730px;
+    font-family: 'Luckiest Guy';
+    font-size: 15pt;
+    color: darkred;
+    text-decoration: none;
+    text-align: left;
+}
+
+a#CoughCoughLink{
+	position: absolute;
+    width: 10px;
+    height: 19px;
+    top: 621px;
+    left: 880px;
+    font-family: 'Luckiest Guy';
+    font-size: 15pt;
+    color: red;
+    text-decoration: none;
+    text-align: left;
+}
+
+a#BabyBoomLink{
+	position: absolute;
+    width: 140px;
+    height: 19px;
+    top: 621px;
+    left: 1005px;
+    font-family: 'Luckiest Guy';
+    font-size: 15pt;
+    color: darkred;
+    text-decoration: none;
+    text-align: left;
+}
+
+a#SourceLink{
+	position: absolute;
+    width: 170px;
+    height: 19px;
+    top: 621px;
+    left: 1080px;
+    font-family: 'Luckiest Guy';
+    font-size: 15pt;
+    color: red;
+    text-decoration: none;
+    text-align: right;
+}
+
+a#BackToTopLink{
+	position: fixed;
+    width: 170px;
+    height: 19px;
+    top: 702px;
+    right: 44px;
+    font-family: 'Luckiest Guy';
+    font-size: 11pt;
+    color: darkred;
+    text-decoration: none;
+    text-align: center;
