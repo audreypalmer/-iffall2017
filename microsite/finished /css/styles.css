@@ -8,7 +8,6 @@ body{
 
 div#background{
 	background-image: url("background.png");
-	background-size: cover;
 	background-repeat: no-repeat;
 	width: 1500px;
 	height: 4562px;
@@ -71,19 +70,30 @@ div#Section2{
     text-align: left;
     font-size: 14pt;
     font-weight: bold;
-    top: 1670px;
+    top: 1120px;
 }
 
 div#Section2Title{
     width: 700px;
     position: absolute;
-    top: 1600px;
+    top: 1050px;
     font-family: 'Luckiest Guy';
     font-size: 40pt;
     text-align: left;
     left: 600px;
     color: red;
-
+}
+div#Section2Caption{
+    position: absolute;
+    /* width: 40px; */
+    height: 40px;
+    top: 1280px;
+    left: 400px;
+    font-family: 'Luckiest Guy';
+    font-size: 12pt;
+    color: darkred;
+    text-decoration: none;
+    text-align: left;
 }
 
 div#Section3{
@@ -93,19 +103,31 @@ div#Section3{
     text-align: left;
     font-size: 14pt;
     font-weight: bold;
-    top: 2450px;
+    top: 1610px;
 }
 
 div#Section3Title{
     width: 700px;
     position: absolute;
-    top: 2400px;
+    top: 1535px;
     font-family: 'Luckiest Guy';
     font-size: 40pt;
     text-align: left;
     left: 600px;
     color: darkred;
 
+}
+div#Section3Caption{
+    position: absolute;
+    /* width: 40px; */
+    height: 40px;
+    top: 1750px;
+    left: 400px;
+    font-family: 'Luckiest Guy';
+    font-size: 12pt;
+    color: darkred;
+    text-decoration: none;
+    text-align: left;
 }
 
 div#Section4{
@@ -115,20 +137,31 @@ div#Section4{
     text-align: left;
     font-size: 14pt;
     font-weight: bold;
-    top: 3260px;
+    top: 2165px;
 }
 
 div#Section4Title{
     width: 700px;
     position: absolute;
-    top: 3200px;
+    top: 2090px;
     font-family: 'Luckiest Guy';
     font-size: 40pt;
     text-align: left;
     left: 600px;
     color: red;
 }
-
+div#Section4Caption{
+    position: absolute;
+    /* width: 40px; */
+    height: 40px;
+    top: 2400px;
+    left: 400px;
+    font-family: 'Luckiest Guy';
+    font-size: 12pt;
+    color: darkred;
+    text-decoration: none;
+    text-align: left;
+}
 div#Section5{
 	position: absolute;
     left: 600px;
@@ -136,20 +169,31 @@ div#Section5{
     text-align: left;
     font-size: 14pt;
     font-weight: bold;
-    top: 4020px;
+    top: 2680px;
 }
 
 div#Section5Title{
     width: 700px;
     position: absolute;
-    top: 3900px;
+    top: 2560px;
     font-family: 'Luckiest Guy';
     font-size: 40pt;
     text-align: left;
     left: 600px;
     color: darkred;
 }
-
+div#Section5Caption{
+    position: absolute;
+    /* width: 40px; */
+    height: 40px;
+    top: 2850px;
+    left: 400px;
+    font-family: 'Luckiest Guy';
+    font-size: 12pt;
+    color: darkred;
+    text-decoration: none;
+    text-align: left;
+ }
 div#Sources{
 	position: absolute;
     left: 600px;
@@ -157,13 +201,13 @@ div#Sources{
     text-align: left;
     font-size: 14pt;
     font-weight: bold;
-    top: 3540px;
+    top: 3100px;
 }
 
 div#SourceTitle{
     width: 700px;
     position: absolute;
-    top: 4400px;
+    top: 3040px;
     font-family: 'Luckiest Guy';
     font-size: 20pt;
     text-align: left;
@@ -173,7 +217,7 @@ div#SourceTitle{
 
 div#Sources{
 	position: absolute;
-	top: 4450px;
+	top: 3100px;
 	width: 202px;
 	height: 847px;
 	font-size: 13pt;
