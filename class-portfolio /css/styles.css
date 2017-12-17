@@ -1,0 +1,13 @@
+html ,
+body {
+	margin:auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color:navy;
+	font-family: 'Fugaz One', cursive;
+	background-color:lightblue;
+	font-size:10pt;
+}
+a:hover {
+	opacity: .5;
+}
